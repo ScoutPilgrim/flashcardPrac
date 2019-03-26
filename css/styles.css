@@ -20,6 +20,7 @@ p {
 
 .fuckBootstrap{
   display: none;
+  text-decoration: underline;
 }
 .clickable {
   cursor: pointer;
@@ -29,9 +30,14 @@ p {
 .clickable:hover {
   text-decoration: underline;
 }
+
+.fuckBootstrap:hover {
+  text-decoration: none;
+}
+
 div.showHidden > .fuckBootstrap{
   display: block;
   color: black;
   text-decoration: none;
-  
+
 }
